@@ -1,0 +1,246 @@
+.aprofundamento {
+    background-color: var(--azul-claro);
+    padding: 2em 0em 2.5em 0;
+}
+
+.aprofundamento-texto {
+    padding: 1.5em 0em 2.5em 0em;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination {
+    display: none;
+}
+
+.swiper {
+    padding-left: 2em;
+}
+
+.saber-mais {
+    border: 2px solid black;
+}
+
+.aprofundamento-resp,
+.aprofundamento-botoes-resp,
+.swiper-resp,
+.aprofundamento-desktop {
+    display: none;
+}
+
+.beneficios-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .aprofundamento-resp-titulo {
+        font-size: 33px;
+        margin-bottom: 1em;
+    }
+
+    .aprofundamento {
+        background-color: none;
+        padding: 2em 0em 4.5em 0;
+    }
+
+    .aprofundamento-resp {
+        margin: 0.5em 0em 2em 0;
+    }
+
+    .aprofundamento-botoes-resp,
+    .aprofundamento-resp,
+    .swiper-resp {
+        display: block;
+    }
+
+
+    .aprofundamento-resp-caixa {
+        margin: 1em 0 5em 0;
+    }
+
+    .resp-caixa-bloco-maior {
+        padding: 1em;
+        border: none;
+        width: 30%;
+        background-color: var(--branco-trans);
+    }
+
+    .resp-caixa-bloco {
+        padding: 1em;
+        border: none;
+        width: 20%;
+
+    }
+
+    .resp-caixa-bloco-maior,
+    .resp-caixa-botao,
+    .resp-caixa-bloco {
+        margin: -5px;
+    }
+
+    .exp {
+        background-color: #cdeaee;
+    }
+
+
+
+    .resp-caixa-botao {
+        padding: 1em;
+        border: none;
+        width: 20%;
+        background-color: #80dbc4;
+        text-decoration: none;
+        color: var(--preto);
+        font-weight: 600;
+    }
+
+    .aprofundamento-texto {
+        padding: 2em 0em 2.5em 0em;
+        font-size: 16px;
+    }
+
+
+    .aprofundamento-botoes-resp {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 39%;
+
+    }
+
+    .aprofundamento-descricao {
+        padding-bottom: 6em;
+    }
+
+    .swiper {
+        display: none;
+    }
+
+    .swiper-resp {
+        padding-left: 12em;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+
+        z-index: 1;
+    }
+
+
+
+    section.aprofundamento {
+        /* background: repeating-linear-gradient(45deg, red, white 101px); */
+        background: linear-gradient(180deg, var(--azul-claro) 52%, var(--azul-claro) 74.4%, var(--azul-claro) 49.4%, #fff 57.85%);
+    }
+
+    .container-aprofundamento {
+        display: none
+    }
+
+}
+
+
+@media screen and (min-width:1600px) {
+    .aprofundamento-desktop {
+        display: block;
+    }
+
+    .resp-caixa-bloco-maior {
+        width: 39%;
+    }
+
+    .resp-caixa-bloco {
+        width: 22%;
+    }
+
+    .swiper-resp {
+        display: none;
+    }
+
+
+    .aprofundamento-descricao {
+        display: none;
+    }
+
+
+    .aprofundamento-botoes-desktop {
+        display: flex;
+
+
+    }
+
+    a.botao-resp.logar-resp {
+        margin-left: 4em;
+    }
+
+
+
+
+    /* .caixa-descricao-aprof{
+        font-size: 27px;
+        width: 100%;
+        text-align: start;
+        font-weight: 500;
+    } */
+
+    .caixa-primeiro-container-aprof,
+    .caixa-segundo-container-aprof {
+        display: flex;
+    }
+
+    .aprofundamento-desktop {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        justify-content: space-around;
+
+    }
+
+    .caixa {
+        background-color: white;
+        padding: 4em;
+        /* margin: 1em; */
+        margin: 0 4em 3em 4em;
+    }
+
+    .caixa-descricao-aprof {
+        padding: -2em;
+        padding: 1em 2em 1em 2em;
+        /* width: 143%; */
+        min-width: 25vw;
+
+    }
+
+    .botoes-desk-aprof{
+        display: flex;
+        margin-top: 2em;
+    }
+
+    .titulo-aprof{
+        font-size: 33px;
+        margin-bottom: 0.5em;
+    
+    }
+
+    .botoes-desk-aprof{
+        padding-top: 2em;
+    }
+    .caixa-sub-imagem-aprof{
+        text-align: start;
+    }
+   .caixa-titulo-aprof {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0.5em;
+    }
+
+   .caixa-textp-aprof {
+        font-size: 14px;
+    }
+
+   
+
+}

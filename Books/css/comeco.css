@@ -1,0 +1,34 @@
+.comeco{
+    padding: 2em 0 1em 0;
+}
+.comeco-titulo{
+    font-size: 33px;
+    margin: 0em 0 1em 0;
+}
+
+.comeco-texto{
+    line-height: 1.5em;
+}
+
+.comeco-botoes{
+    padding-top: 3em ;
+}
+
+.comeco-botoes .procurar{
+    background-color: var(--verde);
+}
+
+.caixa-botoes .escreva-algo{
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+@media screen and (min-width: 1024px){
+    .comeco{
+        display: none;
+    }
+
+ 
+
+}

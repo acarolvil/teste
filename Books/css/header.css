@@ -1,0 +1,87 @@
+.cabecalho {
+width: 95%;
+margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.caminhos-link{
+    color: var(--preto);
+    font-weight: 500;
+}
+
+.link{
+    font-weight: 500;
+}
+.caixa-cabecalho {
+    padding: 0 1.0em;
+    max-width: 40%;
+}
+
+.caminhos {
+    display: none;
+}
+
+.login-cadastro{
+    display: none;
+}
+.logo{
+    width: 100%;
+   
+}
+
+.botao-textarea{
+
+}
+@media screen and (min-width: 1024px) {
+
+   .logo{
+    width: 20%;
+   
+}
+    
+    a.login-link.link {
+        color: var(--verde);
+    }
+
+    a.cadastro-link.link {
+        color: var(--azul);
+    }
+
+    .menu-hamburguer {
+        display: none;
+    }
+
+    .caminhos {
+        display: block;
+        text-decoration: none;
+    }
+
+    .caminhos-link {
+        text-decoration: none;
+    }
+
+    .login-cadastro{
+    
+        display: block;
+        margin: 2px;
+    }
+
+    .login-link{
+        text-decoration: none;
+    }
+    .cadastro-link{
+        text-decoration: none;
+    }
+
+    .link{
+        margin: 0em 1em 0em 1em;
+    }
+
+   
+   
+}
+
+@media screen and (min-width:1600px ) {
+   
+}

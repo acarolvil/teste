@@ -1,0 +1,173 @@
+.contato {
+    padding-bottom: 2em;
+}
+
+.contato-titulo {
+    width: 90%;
+    padding-bottom: 0.8em;
+}
+
+.contato-texto {
+    width: 90%;
+}
+
+.informacoes {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+
+}
+
+.informacoes span {
+    padding-right: 0.5em;
+}
+
+.contato-inf {
+
+    padding: 1em 0 0 0
+}
+
+.contato-botoes {
+    padding-top: 1em;
+}
+
+.contato-botoes .mostra-mapa {
+    border: 2px solid black;
+}
+
+img.loc {
+    margin-left: -4px;
+}
+
+.contato-resp{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato-mobile {
+        display: none;
+
+    }
+
+    .input-caixa{
+        margin: 0!important;
+    }
+
+    .contato {
+        padding-bottom: 0 !important;
+
+    }
+
+    .contato-resp {
+        padding-top: 2em;
+        display: block;
+    }
+
+    .contato-botoes-resp {
+        display: flex;
+        width: 100%;
+        align-items: center;
+
+
+    }
+
+    .contato-resp-numero {
+        width: 100%;
+        background-color: #d2e6ff;
+
+    }
+
+    .contato-titulo-resp {
+        font-size: 30px;
+    }
+
+    .bg-numero {
+
+        width: 55%;
+    }
+
+    .bg-email {
+        width: 45%;
+        background-color: red;
+    }
+
+    .botoes-numero-resp,
+    .botoes-solicita-resp {
+        padding: 1em;
+        margin: 0em 1em 1.5em 0
+    }
+
+    .contato-resp-email {
+        margin: 2em;
+    }
+
+
+    .botoes-numero-resp {
+        border: none;
+        width: 65%;
+    }
+
+    a.botoes-solicita-resp {
+        background: var(--verde);
+        width: 20%;
+        text-align: center;
+        color: var(--preto);
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    .numero {
+        width: 65%;
+        background-color: #d2e6ff;
+        padding: 2em 4em;
+    }
+
+    .email {
+        width: 55%;
+        background-color: #eaf4ff;
+    }
+
+    .contato-resp {
+        display: flex;
+
+    }
+
+    .email-botoes {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin: 2em 0;
+
+    }
+
+    .label-resp {
+        padding: 1em;
+        border: none;
+        margin: 0.5em;
+    }
+
+    .email-botao {
+        background-color: var(--verde);
+        text-decoration: none;
+        text-align: center;
+        color: var(--preto);
+        font-weight: 600;
+        border: none;
+    }
+}
+
+@media screen and (min-width:1600px){
+    .contato-resp-email{
+        width: 75%;
+        margin: 2em auto;
+    }
+
+ 
+    .contato-resp-numero {
+        /* margin-left: 5em; */
+        margin: 0 auto;
+        width: 80%;
+    }
+
+}

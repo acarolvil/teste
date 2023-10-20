@@ -1,0 +1,33 @@
+
+
+.login {
+    background-color: var(--azul-claro);
+padding: 2em 0 4em 0;
+
+}
+
+.login-titulo {
+    font-size: 33px;
+    padding: 1em 0 0.8em 0;
+ 
+}
+
+.caixa-botoes {
+    display: flex;
+    flex-flow: column;
+}
+
+.caixa-botoes .app {
+    background-color: var(--azul);
+}
+
+.caixa-botoes .cadastro {
+    background-color: var(--verde);
+}
+
+
+@media screen and (min-width: 1024px){
+    .login{
+        display: none;
+    }
+}

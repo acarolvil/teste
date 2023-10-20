@@ -1,0 +1,81 @@
+
+.cadastro{
+    padding: 2em 0 2.5em 0;
+    background-color: var(--azul);
+}
+
+.cadastro-titulo{
+    padding-bottom: 0.5em;
+}
+.cadastro-botoes{
+    display: flex;
+    flex-flow: column;
+    padding-top: 3em ;
+}
+
+.botao-label{
+    text-decoration: none;
+    padding: 1.2em;
+    margin: 0.5em auto;
+    width: 90%;
+    border: none;
+}
+
+.botao-label::placeholder{
+    color: rgba(0, 0, 0, 0.548);
+    font-weight: 500;
+}
+
+.procurar{
+    background-color: var(--verde);
+}
+
+.cadastro-botoes .campo-label{
+    background-color: white;
+}
+
+.caixa-botoes-inline, .caixa-botao-block {
+  display: flex;
+  flex-flow: column;
+}
+
+
+@media screen and (min-width: 1024px){
+ .botao-label,  .botao{
+    width: 80%;
+ }
+
+ .caixa-botoes-inline, .caixa-botao-block {
+  display: flex;
+  flex-flow: column;
+}
+
+}
+
+
+
+@media screen and (min-width:1600px ) {
+  .cadastro-caixa, .caixa-botoes-inline {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .cadastro-descricao, .cadastro-botoes{
+    width: 50%;
+  }
+
+  .cadastro-botao-email{
+    width: 94%!important;
+    margin-bottom: 1em;
+  }
+
+ .cadastro-texto.texto {
+    width: 80%;
+}
+
+
+  .cadastro-botao-entrar{
+    width: 30%!important;
+    margin-left: 1em!important;
+  }
+}

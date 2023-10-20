@@ -1,0 +1,18 @@
+.ligacao{
+    background-color: var(--azul-claro);
+    padding: 1.5em 0 2.5em;
+}
+
+.ligacao-botao{
+    background-color: var(--verde)!important;
+}
+
+.ligacao-botoes{
+    padding-top: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .ligacao{
+        display: none;
+    }
+}
