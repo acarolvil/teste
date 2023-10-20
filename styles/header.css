@@ -1,0 +1,201 @@
+.cabecalho-menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+}
+
+.container-botao:checked~.container-rotulo>.cabecalho-menu-hamburguer{
+    background-image: url(../img/Menu\ Aberto.svg);
+} 
+
+.container-botao:checked~.container-rotulo{
+    background: var(--azul-gradiente);
+ 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container-img {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    /* absolute no campo relative do cabecalho, então ele vai se movimentar referente ao campo do cabecalho */
+    top: 100%;
+    /*tira 100% do topo, ou seja, vai pra fora */
+    width: 60vw;
+}
+
+.menu-titulo,
+.menu-item {
+    padding: 1em;
+    background-color: white;
+}
+
+.menu-titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.menu-link {
+    text-decoration: none;
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+}
+
+.container-botao {
+    display: none;
+}
+
+.container-botao:checked~.lista-menu {
+    display: block;
+}
+
+.container-titulo{
+    display: none;
+}
+
+.opcoes-resp{
+    display: none;
+}
+
+.lista-menu-opcoes{
+    display: none;
+}
+
+.opcoes-botao{
+    display: none
+}
+
+.opcoes-botao:checked~.lista-menu-opcoes{
+    display: block;
+}
+
+.lista-menu-opcoes{
+    display: none;
+    position: absolute;
+    /* absolute no campo relative do cabecalho, então ele vai se movimentar referente ao campo do cabecalho */
+    top: 100%;
+    /*tira 100% do topo, ou seja, vai pra fora */
+    width: auto;
+}
+
+
+
+.container-texto{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px){
+    
+    .menu-item{
+        list-style: none;
+    }
+    .opcoes-botao:checked~.opcoes-label>.opcoes-item{
+        background: var(--azul-gradiente);
+        color: white;
+    }
+
+    .menu-item:hover{
+        background: var(--azul-gradiente);
+    }
+
+    .menu-item:hover>.menu-link{
+        -webkit-text-fill-color: white;
+    }
+
+  
+   
+    .container-titulo{
+        display: block;
+    }
+    .container-titulo-negrito{
+        font-weight: 700;
+    }
+
+    .opcoes-resp{
+        display: flex;
+    }
+
+    .opcoes-item{
+        list-style: none;
+        padding: 1em;
+        text-transform: uppercase;
+    }
+
+    .favorito-img{
+        display: none;
+    }
+
+   
+    .menu-mobile{
+        display: none;
+    }
+
+    .favorito-img{
+        display: none;
+    }
+  
+   
+}
+
+@media screen and (min-width: 1600px){
+
+    .menu-item{
+        list-style: none;
+    }
+    .container-link{
+        display: flex;
+       align-items: center;
+       text-decoration: none;
+       color: black;
+    }
+
+    .container-texto{
+        display: block;
+    }
+
+    .cabecalho{
+        padding: 0 1.5em;
+    }
+    
+    .opcoes-resp{
+        margin-right: auto;
+        /* quando se coloca um margin auto em um local com display flex ele sempre tende a preencher todo campo que esta sobrando */
+    }
+
+    .menu-mobile{
+        display: none;
+    }
+  
+}
+
