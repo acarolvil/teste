@@ -112,35 +112,46 @@
     display: none;
 }
 
-.saiba-mais-header{
+.saiba-mais-header {
     display: none;
 }
 
-.menu-desktop{
+.menu-desktop {
     display: none;
 }
 
 @media screen and (min-width: 900px) {
-
+    .menu-hamburguer {
+        display: none;
+    }
 
     nav {
-        border-radius: 10px!important;
-        background-color: #fdddfc!important;
+        border-radius: 10px !important;
+        background-color: #fdddfc !important;
         padding: 0em 6em;
     }
+
     .menu-desktop {
-        display: block;
         border-radius: 10px;
         position: fixed;
         top: 1em;
         z-index: 1000;
-     
+        width: 80%;
+        display: flex;
+        justify-content: center;
     }
 
     .menu-cont {
         color: #6e616e;
         padding: 0em 1em;
     }
+
+
+    .marca{
+        font-weight: 600;
+        font-size: 18px;
+    }
+
     .logo-desktop {
         display: block;
     }
@@ -150,6 +161,9 @@
         position: relative;
         width: auto;
     }
+    .links-externos img{
+        padding-right: 0.5em;
+    }
 
     .texto-header {
         text-align: start;
@@ -157,13 +171,15 @@
         width: 50%;
         margin: 0 3em;
     }
+
     .saiba-mais-header {
         margin-top: 1em;
         width: 100%;
         display: flex;
         justify-content: start;
-        
+
     }
+
     .logo {
         background-image: none;
         margin: 0 2em;
@@ -190,7 +206,10 @@
         width: 100%;
     }
 
-
+    .divisorias li{
+        padding: 0 0.5em;
+        color: var(--preto-fonte);
+    }
     /* .header-desktop{
         display: flex;
         min-height: 70vh;
