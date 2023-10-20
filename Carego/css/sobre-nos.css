@@ -1,0 +1,151 @@
+.lista-sobre-nos {
+    margin: 2em auto;
+}
+
+.lista-sobre-nos li {
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .lista-sobre-nos ul {
+    padding-left: 0em;
+} */
+
+.lista-sobre-nos img {
+    margin: 1em 0;
+}
+
+.edit {
+    margin-bottom: -2em !important
+}
+
+.ul-desktop {
+    display: none;
+}
+
+.ul-mobile{
+    display: block!important;
+}
+
+
+.caixa {
+ 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    padding: 5em 0em 1em 0em;
+    
+   
+}
+
+h2.titulo-caixa {
+    font-size: 20px;
+    font-weight: 700;
+}
+p.texto-caixa {
+    font-weight: 500;
+    margin: 0.5em 1em;
+    font-size: 12px;
+}
+
+.container-caixa{
+    border-radius: 8px;
+    width:200px;
+    text-align: center;
+    justify-content: center;
+    padding: 5em 0em 1em 0em;
+    box-shadow: -1px 5px 10px 8px #64636314;
+   
+}
+
+img.img-caixa {
+    z-index: 99;
+    margin-bottom: -6em;
+    width: 58%;
+}
+
+.container-sobre-nos{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-comentarioFlex{
+    display: none;
+}
+
+span.sobre-nosFlex{
+    display: block;
+}
+span.sobre-nosDesk{
+    display: block;
+}
+
+@media screen and (min-width: 900px) {
+    
+
+    li.item-mobile, .ul-mobile {
+        display: none;
+    }
+
+    .ul-desktop {
+        display: flex!important;
+        padding: 1em 2em!important;
+        
+    }
+
+    /* li.caixa.edit{
+       
+    } */
+
+    span.sobre-nosFlex{
+        display: flex;
+    }
+
+    .caixa{
+        margin: 0em 4em;
+        padding: 3em 0em 6em 0em;
+    }
+
+    .container-caixa{
+        width:250px;
+    }
+
+}
+
+@media screen and (min-width:1300px ) {
+  span.sobre-nosDesk{
+    display: flex;
+    align-items: center;
+   
+    
+  }
+
+  .caixa{
+    margin: 0em 1.5em;
+    padding: 3em 0em 6em 0em;
+}
+
+/* .container-caixa{
+    border-radius: 8px;
+    width:240px;
+    text-align: center;
+    justify-content: center;
+    padding: 5em 0em 1em 0em;
+    box-shadow: -1px 5px 10px 8px #64636314;
+   
+} */
+
+
+  
+
+
+
+}

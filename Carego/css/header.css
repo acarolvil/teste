@@ -1,0 +1,231 @@
+.header-desktop {
+    display: none;
+}
+
+.header {
+    background-color: var(--rosa);
+    min-height: 70vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+}
+
+
+.logo {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/cat-logo-alt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.texto-header {
+    display: flex;
+    height: 40%;
+    flex-flow: column;
+    top: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    margin-top: 3em;
+}
+
+
+.img-header {
+    margin-bottom: 4em;
+
+}
+
+.titulo-header {
+    font-weight: 700;
+    font-size: 3.5em;
+    margin-bottom: 0.2em;
+}
+
+.titulo-header-cor {
+    color: var(--rosa)
+}
+
+.menu-hamburguer {
+    background-color: #FFFAFA;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px #00000080;
+    margin-top: 1.5em;
+
+}
+
+
+
+
+
+.titulo-header {
+    font-size: 40px;
+    text-align: center;
+}
+
+.menu-hamburguer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 0.5em;
+}
+
+.item-menu {
+    font-size: 20px !important;
+    color: var(--preto-fonte);
+}
+
+.contatos-header {
+    background-color: var(--rosa);
+    box-shadow: -3px 11px 8px -1px #00000040;
+    padding: 2.5em;
+    margin: 1em 0;
+}
+
+.item-menu-contato {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 40px !important;
+}
+
+.icone-menu {
+    padding-right: 0.5em;
+    color: var(--laranja);
+}
+
+.logo-desktop {
+    display: none;
+}
+
+.paragrafo-header {
+    display: none;
+}
+
+.saiba-mais-header{
+    display: none;
+}
+
+.menu-desktop{
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+
+
+    nav {
+        border-radius: 10px!important;
+        background-color: #fdddfc!important;
+        padding: 0em 6em;
+    }
+    .menu-desktop {
+        display: block;
+        border-radius: 10px;
+        position: fixed;
+        top: 1em;
+        z-index: 1000;
+     
+    }
+
+    .menu-cont {
+        color: #6e616e;
+        padding: 0em 1em;
+    }
+    .logo-desktop {
+        display: block;
+    }
+
+    .logo,
+    .texto-header {
+        position: relative;
+        width: auto;
+    }
+
+    .texto-header {
+        text-align: start;
+        color: var(--preto-fonte);
+        width: 50%;
+        margin: 0 3em;
+    }
+    .saiba-mais-header {
+        margin-top: 1em;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        
+    }
+    .logo {
+        background-image: none;
+        margin: 0 2em;
+
+    }
+
+    .header {
+        display: flex;
+        flex-flow: row !important;
+        justify-content: space-around;
+    }
+
+    .paragrafo-header {
+        display: block;
+    }
+
+    .logotipo {
+        display: none;
+    }
+
+    .titulo-header {
+        text-align: start;
+        color: white;
+        width: 100%;
+    }
+
+
+    /* .header-desktop{
+        display: flex;
+        min-height: 70vh;
+        background-color: var(--rosa);
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo{
+        background-image: none;
+        margin: 0 2em;
+    }
+
+    .texto-header-desktop{
+        text-align: start;
+        width: 40%;
+        margin: 0 2em;
+       
+    }
+
+    .titulo-header-desktop{
+        text-align: start;
+        font-weight: 700;
+        font-size: 3.5em;
+         color: white;
+        
+    }
+
+    .header-botao-desktop{
+        margin-top: 2em;
+        color: white;
+    } */
+
+
+
+
+
+}

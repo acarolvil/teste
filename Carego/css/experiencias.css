@@ -1,0 +1,86 @@
+.experiencias{
+    padding: 1em 0em 5em 0em;
+}
+.lista-experiencias{
+    margin-bottom:3em ;
+}
+.lista-experiencias li{
+    box-shadow: 1px 11px 8px 0px #00000017;;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-radius: 28px;
+    padding: 0.6em;
+    margin: 2em 1em;
+}
+
+.lista-experiencias ul{
+    padding-left: 0em;
+}
+.lista-experiencias-titulo{
+    font-size: 16px;
+    margin-bottom: 0.5em;
+}
+.lista-experiencias-texto{
+    font-size: 14px;
+}
+
+.imagem-experiencias{
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    .imagem-experiencias{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+   
+    .textos{
+        text-align: center;
+        margin: 4em 0;
+    }
+    
+
+}
+
+@media screen and (min-width:1300px) {
+    .experiencias-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .textos{
+        text-align:start;
+        margin: 4em 0;
+    }
+    
+   
+
+   .desktop{
+        display: none;
+    }
+   .lista-experiencias{
+    width: 95%;
+   }
+
+   .lista-experiencias li{
+ 
+    margin: 2em 0
+   }
+
+   .imagem-exp{
+    margin-right: 2em;
+   }
+
+   .lista-experiencias{
+    margin-left: 2em;
+   }
+
+}
+

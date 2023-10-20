@@ -1,0 +1,222 @@
+.projetos {
+    background-color: var(--rosa-back);
+    padding: 1.5em 0 3em 0;
+}
+
+
+.cartoes {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin: 0 1em;
+}
+
+.seta {
+    z-index: 99;
+    margin-bottom: -1em;
+    border-radius: 28px;
+    padding: 0.9em 1.2em;
+    margin: 0em 0em 0em -2em;
+    box-shadow: 0px 6px 10px 1px #0000002b;
+}
+
+.seta i {
+    color: var(--preto);
+    font-size: 18px;
+}
+
+.first-seta {
+    background-color: white;
+}
+
+.second-seta {
+    background-color: var(--laranja);
+}
+
+.cartao-back {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    padding: 8em 0em;
+    border-radius: 28px 28px 0 0;
+
+}
+
+
+
+.first {
+    background-image: url(../img/penguin.svg);
+}
+
+.second {
+    background-image: url(../img/homem-azul.svg);
+}
+
+.cartao-caixa {
+    border-radius: 40px;
+    width: 95%;
+
+
+
+}
+
+.cartao-texto {
+    background-color: white;
+    padding: 2.5em 1em;
+    border-radius: 0 0 28px 28px;
+    text-align: start;
+}
+
+.cartao-texto-titulo {
+    font-size: 18px;
+    margin: 0.5em 0;
+
+}
+
+.cartao-texto-descricao {
+    font-size: 12px;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination {
+    display: none;
+}
+
+.swiper-slide {
+    padding-bottom: 2.5em;
+}
+
+.saiba-mais-projetos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao-projetos {
+    border-radius: 8px;
+    text-decoration: none;
+    background: var(--laranja);
+    padding: 1.0em 2em;
+    color: white;
+    font-weight: 500;
+
+}
+
+.seta-botao-projetos {
+    padding-left: 0.5em;
+}
+
+.textos-desktop {
+    display: none;
+}
+
+.cartoes-container {
+    display: none;
+}
+
+.saiba-mais-projetos-desk {
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    .textos-desktop {
+        display: block;
+    }
+
+    .textos-mobile {
+        display: none;
+    }
+
+    .cartoes {
+        margin: 1em 3em 6em;
+    }
+
+    .cartao-caixa {
+        border-radius: 40px;
+        width: auto;
+
+    }
+
+    .cartao-back {
+        padding: 10em;
+    }
+
+    .swiper-projetos {
+        display: none;
+    }
+
+    .cartoes-container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .cartao-texto {
+        padding: 0.5em 1em;
+    }
+
+    .cartao-texto-titulo {
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:1300px) {
+
+    .sobre-nos-desktop {
+        display: flex;
+        flex-flow: row-reverse;
+
+
+    }
+    .cartao-texto-titulo {
+        font-size: 18px;
+        margin: 0.5em 0;
+    
+    }
+    p.cartao-texto-descricaotextos-desktop{
+        font-size: 10px;
+        margin-bottom: 1em;
+    }
+
+    .projetos {
+        background: linear-gradient(180deg, var(--rosa-back) 52%, var(--rosa-back) 74.4%, var(--rosa-back) 49.4%, #fff 57.85%);
+        padding: 1.5em 0 1.0em 0;
+    }
+
+    .cartao-caixa {
+        box-shadow: 6px 5px 4px 4px #0000001c;
+    }
+
+    .saiba-mais-projetos {
+        display: none;
+    }
+
+  
+
+    .texto-projeto, .saiba-mais-projetos-desk {
+        text-align: start !important;
+        margin-left: 3em!important;
+        display: block;
+    }
+
+    .cartoes {
+        margin: 2em 2em 2em 1em;
+        flex-flow: row-reverse;
+    }
+    .cartao-back {
+        padding: 9em 9em;
+    }
+
+    .cartao-texto {
+        background-color: white;
+        padding: 0.5em 0em;
+        border-radius: 0 0 28px 28px;
+        text-align: start;
+        /* margin: 1em; */
+        padding: 1em 1em 1em 1em;
+    }
+
+}

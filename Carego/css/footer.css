@@ -1,0 +1,68 @@
+.footer {
+    background-color: var(--laranja-back);
+    border-radius: 28px 28px 0 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 0;
+
+}
+
+.marca-footer {
+    color: var(--rosa-back);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin:0
+}
+
+.politicas {
+    display: flex;
+    align-items: center;
+}
+
+.politicas p {
+    margin: 0.5em;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+}
+.img{
+    width: 13%;
+}
+
+
+
+
+@media screen and (min-width:1300px ) {
+    .parte1, .parte2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+      }
+    
+      .footerFlex{
+        display: none;
+      }
+
+      .footer-contain{
+        margin: 2em;
+        color: white;
+        display: flex;
+        text-decoration: none;
+      }
+
+      .footer-contain a{
+        color: white;
+        display: flex;
+        text-decoration: none;
+      }
+
+      .footer{
+        padding: 1em 0;
+      }
+  
+  }
+
